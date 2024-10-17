@@ -1,0 +1,41 @@
+/* Importing the Indie Flower font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    font-family: 'Indie Flower', cursive;
+    background-color: #001f3f; /* Dark sea blue color */
+    margin: 0;
+    padding: 20px;
+    border: 10px solid white;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.planet-container {
+    display: flex;
+    flex-direction: column; /* Stacks planets vertically */
+    align-items: center; /* Centers items horizontally */
+}
+
+.planet {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 60px 0; /* Increased margin for more space */
+    padding: 15px;
+    border-radius: 5px;
+    width: 80%; /* Adjust width as needed */
+    text-align: center;
+}
+
+img {
+    width: 200px; /* Set a fixed width for all images */
+    height: 200px; /* Set a fixed height for all images */
+    display: block; /* Ensures images stack vertically */
+    margin: 0 auto; /* Centers images */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 
+                0 0 30px rgba(255, 255, 255, 0.5), 
+                0 0 45px rgba(255, 255, 255, 0.3);
+}
